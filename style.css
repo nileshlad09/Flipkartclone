@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: #f1f3f6;
+    
+}
+.navbar{
+  overflow: hidden;  
+  position: fixed;
+ width: 100%;
+ top: 0;
+ z-index: 1;
+ height: 60px;
+ background-color: rgb(65, 65, 243);
+ 
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.logo{
+    margin-right: 20px;
+}
+.logo h2{
+    font-size: 12px;
+}
+.logo h2 i{
+    color: yellow;
+}
+.search{
+    background-color: white;
+    width: 450px;
+    height: 36px;
+    margin-right: 150px;
+
+}
+.search i{
+    color: black;
+}
+.search input{
+    padding-left:10px;
+    font-size:15px;
+    width: 420px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.class2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class2 button{
+    width: 10vw;
+    height: 30px;
+    margin-right: 15px;
+    color: blue;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.class2 select{
+    height: 30px;
+    margin-right: 15px;
+    color: white;
+    background-color: #17233700;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.class2 p{
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+.class2 p i{
+    font-size: 19px;
+    padding-right: 5px;
+}
+
+
+
+
+.class1{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 62px;
+    overflow-x: scroll;
+     overflow: auto; 
+     white-space: nowrap;  
+}
+.class1::-webkit-scrollbar {
+    display: none;
+  }
+.class1 img{
+    margin: 8px 40px 0 40px;
+    width: 70px;
+}
+.img1, .img2, .img3, .img4, .img5,.img6,.img7, .img8, .img9{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+}
+.class1 h3:hover{
+    color: rgb(0, 183, 255);
+    cursor: pointer;
+    
+}
+
+
+
+.box1{
+    border-bottom: black solid 1px;
+    margin: 0px 10px;
+    background-color: white;
+    padding: 15px;
+    padding-bottom: 50px;
+    
+}
+.he{
+float: left;    
+}
+.box1 h1{
+    font-size: 20px;
+}
+.box1 h2{
+    font-size: 15px;
+}
+.btn{
+    float: right;
+   width: 100px;
+   height: 30px;
+    background-color:blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.furniture{
+    display: flex;
+    background-color: white;
+    margin: 0 10px 10px 10px;
+    padding-bottom: 10px;
+    overflow-x: scroll;
+     overflow: auto; 
+     white-space: nowrap; 
+}
+.f1,.f2,.f3,.f4,.f5,.f6,.f7,.f8{
+    margin: 10px 10px;
+}
+
+.furniture h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+.furniture h4{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(44, 150, 44);
+}
+.furniture h5{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 5px;
+
+}
+
+
+
+
+.footer{
+    background-color:#172337;;
+}
+.footer ul{
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    list-style-type: none;
+    
+}
+.footer ul li{
+  
+    padding: 40px;
+
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}

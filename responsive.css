@@ -1,0 +1,244 @@
+@media  screen and (max-width:350px) {
+    .navbar{
+    
+        height: 110px;
+    }
+    .navbar ul{
+        display: block;
+        height: 60px;
+    }
+    .logo{
+        padding: 5px;
+        float: left;
+    }
+       
+    .search{ 
+         display: none;
+    }  
+    .searchbar{
+        background-color: white;
+        height: 30px;
+        margin: 22px 0 0 20px;
+        width:250px;
+    }
+    .searchbar input{
+        outline: none;
+        border: none;
+        padding-left: 5px;
+    }
+    .searchbar i{
+        float: right;
+        padding: 5px;
+    }
+    
+    .class1{
+        margin-top: 112px;
+    }
+    .class2{
+        margin-top: 18px;
+    }
+    .class2 p, .class2 select{
+        display: none;
+    }
+    
+    .class2 button{
+        width: 100px;
+        float: right;
+        padding: 8px;
+        margin: 0 0  0 50px;
+    }
+    .he h1{
+        font-size: 14px;
+      
+    }
+    .he h2{
+        font-size: 11px;
+    }
+    .btn{
+        width:66px;
+    }
+    .furniture img{
+        width: 185px;
+    } 
+    .footer{
+        height: 77px;
+    }
+    .footer a{
+        font-size: 12px;
+    }
+    .footer ul li{
+        padding: 10px;
+    
+    }
+    
+    
+}
+@media screen and (min-width:350px) and (max-width:530px) {
+    .navbar{
+    
+        height: 110px;
+    }
+    .navbar ul{
+        display: block;
+        height: 60px;
+    }
+    .logo{
+        padding: 5px;
+        float: left;
+    }
+       
+    .search{ 
+         display: none;
+    }  
+    .searchbar{
+        background-color: white;
+        height: 30px;
+        margin: 22px 0 0 20px;
+        width:300px;
+    }
+    .searchbar input{
+        outline: none;
+        border: none;
+        padding-left: 5px;
+    }
+    .searchbar i{
+        float: right;
+        padding: 5px;
+    }
+    
+    .class1{
+        margin-top: 112px;
+    }
+    .class2{
+        margin-top: 18px;
+    }
+    .class2 p, .class2 select{
+        display: none;
+    }
+    
+    .class2 button{
+        width: 100px;
+        float: right;
+        padding: 8px;
+        margin: 0 0  0 106px;
+    }
+    .he h1{
+        font-size: 15px;
+      
+    }
+    .he h2{
+        font-size: 13px;
+    }
+    .btn{
+        width:66px;
+    }
+    .furniture img{
+        width: 185px;
+    } 
+    .footer{
+        height: 77px;
+    }
+    .footer a{
+        font-size: 12px;
+    }
+    .footer ul li{
+        padding: 10px;
+    
+    }
+        
+}
+
+@media screen and (min-width:530px)and (max-width:700px)  {
+  
+
+.navbar{
+    
+    height: 110px;
+}
+.navbar ul{
+    display: block;
+    height: 60px;
+}
+.logo{
+    padding: 5px;
+    float: left;
+}
+   
+.search{ 
+     display: none;
+}  
+.searchbar{
+    background-color: white;
+    height: 30px;
+    margin: 22px 0 0 20px;
+    width:500px;
+}
+.searchbar input{
+    outline: none;
+    border: none;
+    padding-left: 5px;
+}
+.searchbar i{
+    float: right;
+    padding: 5px;
+}
+
+.class1{
+    margin-top: 112px;
+}
+.class2{
+    margin-top: 18px;
+}
+
+.class2 button{
+    width: 100px;
+    float: right;
+    padding: 8px;
+    margin: 0 0  0 106px;
+}
+.he h1{
+    font-size: 15px;
+  
+}
+.he h2{
+    font-size: 13px;
+}
+.btn{
+    width:66px;
+}
+.furniture img{
+    width: 185px;
+} 
+.footer{
+    height: 77px;
+}
+.footer a{
+    font-size: 12px;
+}
+.footer ul li{
+    padding: 10px;
+
+}
+}
+
+
+@media screen and (min-width:701px) and (max-width:1000px){
+    .searchbar{
+        display: none;
+    }
+    .search{
+        margin-right: 40px;
+        width: 330px;
+    }
+    .search input{
+        width: 300px;
+    }
+
+    
+}
+@media screen and (min-width:701px) {
+ .searchbar{
+     display: none;
+ }   
+    
+}
